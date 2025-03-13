@@ -1,0 +1,49 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #121212;
+    color: #dddcdc;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1em;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #dddcdc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 20px 20px;
+}
+
+.perfil {
+    width: 110px;
+    border-radius: 50%;
+}
+
+article {
+    margin: 20px 0;
+    color: #dddcdc;
+}
+
+.icon {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #333;
+    color: #dddcdc;
+    text-decoration: none;
+}
